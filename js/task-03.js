@@ -12,9 +12,11 @@
     alt: 'Group of Horses Running',
   },
 ];
-const gallery = document.querySelector('.gallery')
+
+const gallery = document.querySelector('.gallery');
 const newArray = images.map((el) =>
-  `<li> <img src = ${el.url} alt = ${el.alt} width = 300 </li>`
-);
-gallery.insertAdjacentHTML('afterbegin', newArray)
+  `<li> <img src = "${el.url}" alt = "${el.alt}" width = "100%" height = "100%" </li>`
+).join('');
+
+gallery.insertAdjacentHTML('afterbegin', newArray);
 console.log(gallery);
