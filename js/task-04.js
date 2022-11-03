@@ -14,8 +14,4 @@ incrementBtnRef.addEventListener('click', () => {
     counterValueRef.textContent = counterValue;
 });
 
-
-
 console.log(counterValue.textContent);
-
-// console.log();

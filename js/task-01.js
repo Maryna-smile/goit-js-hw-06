@@ -7,7 +7,6 @@ liRef.forEach(el => {
 
     const liImesRef = el.querySelectorAll('li');
     console.log('Elements: ' + liImesRef.length);
-
 })
 
 
